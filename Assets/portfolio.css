@@ -14,6 +14,7 @@ header {
 /* Font for the headers */
 h1, h2 {
     font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
 }
 
 /* Styling for my name in the header. */
@@ -36,6 +37,19 @@ div.header-name {
 /* Right side border for the links in the navbar */
 li.r-border {
     border-right: 1px inset rgb(238, 235, 235);
+}
+
+/* FORM styling */
+#contact-form {
+    max-width: 40em;
+    background-color: whitesmoke;
+    margin: 3em;
+    border: 2px solid darkslategrey;
+
+}
+
+input.btn {
+    background: rgb(29, 85, 29);
 }
 
 

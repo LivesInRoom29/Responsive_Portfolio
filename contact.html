@@ -17,7 +17,6 @@
                     <div class="col-md-5 col-sm-12 col-lg-4 text-nowrap align-self-center header-name">
                         <h1>Molly Kizer</h1>
                     </div>
-
                     <!-- Links in the navbar -->
                     <div class="col-md-7 col-sm-12 col-lg-8">
                         <nav class="navbar navbar-expand navbar-light justify-content-md-end justify-content-center">
@@ -39,6 +38,51 @@
             </div>
         </header>
 
+        <!-- Contact form -->
+        <form id="contact-form" action="mailto:molly.kizer@gmail.com" method="post" role="form" class="w-75">
+            <div class="container p-4">
+                <div class="row contact-header border-b">
+                    <div class="col-md-12">
+                        <h2>Contact</h2>
+                        <hr />
+                    </div>
+
+                </div>
+                <div class="row form-name">
+                    <div class="col-md-12">
+                        <label for="form_name">Name *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <br />
+                <div class="row form-email">
+                    <div class="col-md-12">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <br />
+                <div class="row form-message">
+                    <div class="col-md-12">
+                        <label for="form_message">Message *</label>
+                        <textarea name="message" id="form_message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave me a mesage. "></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="send message">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </form>
 
     </body>
 
