@@ -40,6 +40,15 @@ li.r-border {
 }
 
 /* FORM styling */
+form h2{
+    color: rgb(29, 85, 29);
+}
+
+hr {
+    height: 2px;
+    background: lightgrey;
+}
+
 #contact-form {
     max-width: 40em;
     background-color: whitesmoke;
