@@ -11,17 +11,26 @@ header {
     border-bottom: 2px solid rgb(184, 182, 182);
 
 }
-/* Styling for my name in the header. */
+/* Font for the headers */
 h1, h2 {
     font-family: 'Averia Serif Libre', cursive;
 }
 
+/* Styling for my name in the header. */
 h1 {
-    background-color: rgb(29, 85, 29);
     color: rgb(255, 255, 255);
     font-size: 36px;
     text-align: center;
-    margin: 0;
+    align-content: center;
+    margin-bottom: 0;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+
+}
+
+div.header-name {
+    background-color: rgb(29, 85, 29);
+    justify-content: center;
 }
 
 /* Right side border for the links in the navbar */
@@ -29,7 +38,4 @@ li.r-border {
     border-right: 1px inset rgb(238, 235, 235);
 }
 
-/* Border for the bottom of the header */
-div.border-b {
-    /* border-bottom: 2px solid rgb(184, 182, 182); */
-}
+
