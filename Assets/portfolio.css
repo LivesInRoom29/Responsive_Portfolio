@@ -1,0 +1,35 @@
+/* Fonts */
+/* Averi Serif Libre - for Headings */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background: #dbdcdd;
+}
+
+header {
+    background: white;
+    border-bottom: 2px solid rgb(184, 182, 182);
+
+}
+/* Styling for my name in the header. */
+h1, h2 {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+h1 {
+    background-color: rgb(29, 85, 29);
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Right side border for the links in the navbar */
+li.r-border {
+    border-right: 1px inset rgb(238, 235, 235);
+}
+
+/* Border for the bottom of the header */
+div.border-b {
+    /* border-bottom: 2px solid rgb(184, 182, 182); */
+}
