@@ -49,9 +49,13 @@ div.box-shadow {
     box-shadow: 0 0 10px 0 rgba(0,0,0,.50)
 }
 
-div.col-md-3 {
+div.img-left {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+div.about-me {
+    width: 65%;
 }
 
 /* From: https://bootsnipp.com/snippets/kMdQj, Alex Mahrt */
@@ -145,12 +149,13 @@ div.footer-margin {
 }
 
 footer {
-    background: rgb(45, 109, 45);
+    background: rgba(29, 85, 29, .8);
     bottom: 0;
     left: 0;
     position: fixed;
     width: 100%;
     /* color: rgb(160, 185, 122); */
+    padding: 5px;;
 }
 
 footer, i.fab {
