@@ -2,16 +2,16 @@
 /* Averi Serif Libre - for Headings */
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-
+/* Sets background color of the bodyto be an off white */
 body {
     background: #dbdcdd;
 }
 
-
+/* Sets the background of the header to be a purplish grey and gives a bottom border */
 header {
     /* background: rgba(226, 117, 117, 0.149); */
-    background: rgba(226, 219, 231, .85);
-    border-bottom: 2px solid black /*rgb(184, 182, 182)*/;
+    background: rgba(226, 219, 231, 1);
+    border-bottom: 2px solid rgb(184, 182, 182);
 
 }
 /* Font for the headers */
@@ -22,7 +22,8 @@ h1, h2 {
 
 /* Styling for my name in the header. */
 h1 {
-    color: rgb(231, 219, 231);
+    background-color: rgba(29, 85, 29, .7);
+    color: rgb(255, 255, 255);
     font-size: 36px;
     text-align: center;
     align-content: center;
@@ -32,33 +33,21 @@ h1 {
 
 }
 
+/* Centers and sets background color for my name in header. */
 div.header-name {
-    background-color: rgba(29, 85, 29, .5);
+    background-color: rgba(29, 85, 29, .9);
     justify-content: center;
 }
 
-/* Links in navbar */
-/* Need to darken the non-active links */
-
-a.nav-link.active {
-    color:rgba(0, 0, 0, 1);
-    font-weight: 600;
-}
-
-/* Right side border for the links in the navbar */
+/* Right side border for the first 2 links in the navbar to make a separator. */
 li.r-border {
     border-right: 1px inset rgb(146, 142, 142);
 }
 
-/* Hero */
-
-section.hero {
-    position: relative;
-    opacity: 0.5;
-}
 
 
-/* FORM styling */
+
+/* FORM styling in CONTACT.html */
 form h2{
     color: rgb(29, 85, 29);
 }
