@@ -5,6 +5,7 @@
 /* Sets background color of the bodyto be an off white */
 body {
     background: #dbdcdd;
+    height: 100%;
 }
 
 /* Sets the background of the header to be a purplish grey and gives a bottom border */
@@ -22,11 +23,9 @@ h1, h2 {
 
 /* Styling for my name in the header. */
 h1 {
-    background-color: rgba(29, 85, 29, .7);
     color: rgb(255, 255, 255);
     font-size: 36px;
     text-align: center;
-    align-content: center;
     margin-bottom: 0;
     padding-top: .4rem;
     padding-bottom: .4rem;
@@ -35,8 +34,8 @@ h1 {
 
 /* Centers and sets background color for my name in header. */
 div.header-name {
-    background-color: rgba(29, 85, 29, .9);
-    justify-content: center;
+    background-color: rgba(29, 85, 29, .7);
+
 }
 
 /* Right side border for the first 2 links in the navbar to make a separator. */
@@ -45,10 +44,80 @@ li.r-border {
 }
 
 
+/* for ABOUT ME card */
+div.box-shadow {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.50)
+}
+
+div.col-md-3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* From: https://bootsnipp.com/snippets/kMdQj, Alex Mahrt */
+.lib-panel {
+    margin-bottom: 20Px;
+}
+
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
+
 
 
 /* FORM styling in CONTACT.html */
-form h2{
+form h2 {
     color: rgb(29, 85, 29);
 }
 
@@ -69,4 +138,23 @@ input.btn {
     background: rgb(29, 85, 29);
 }
 
+/* For FOOTER */
+
+div.footer-margin {
+    height: 100px;
+}
+
+footer {
+    background: rgb(45, 109, 45);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    color: rgb(160, 185, 122);
+}
+
+a.footer-link {
+    color: rgba(245, 245, 245, 0.762);
+
+}
 

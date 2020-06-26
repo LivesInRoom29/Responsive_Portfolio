@@ -4,9 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>M Kizer - About Me</title>
-
+        <!-- Bootstrap and my stylesheet -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./Assets/portfolio.css">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/e5541abac7.js" crossorigin="anonymous"></script>
+
 
     </head>
 
@@ -15,10 +18,9 @@
             <div class="container">
                 <!-- My name at the top of the page -->
                 <div class="row border-b">
-                    <div class="col-md-5 col-sm-12 col-lg-4 text-nowrap">
+                    <div class="col-md-5 col-sm-12 col-lg-4 text-nowrap header-name">
                         <h1>Molly Kizer</h1>
                     </div>
-
                     <!-- Links in the navbar -->
                     <div class="col-md-7 col-sm-12 col-lg-8">
                         <nav class="navbar navbar-expand navbar-light justify-content-md-end justify-content-center">
@@ -35,19 +37,47 @@
                             </ul>
                         </nav>
                     </div>
-
                 </div>
             </div>
         </header>
 
         <br />
+        <br />
 
         <main>
-           
+            <!-- About Me Panel -->
+            <!-- Adapted from: Alex Mahrt  https://bootsnipp.com/snippets/kMdQj-->
+            <div class= "container w-75">
+                <div class="lib-panel">
+                    <div class="row box-shadow">
+                        <div class="col-md-3">
+                            <img class="img-fluid rounded-circle" src="./Assets/img/Bodhi2.jpg" alt="Bodhi the dog" max-height= 50px>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="lib-row lib-header">
+                                <h2>About Me</h2>
+                                <div class="lib-header-seperator"></div>
+                            </div>
+                            <div class="lib-row lib-desc">
+                                <p>
+                                    Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
-        <footer>
+        <!-- FOOTER -->
+        <div class="footer-margin">
+            <footer class="footer-position">
+                <div class="container text-center">
+                    <a class="footer-link" href="https://github.com/LivesInRoom29"><i class="btn fab fa-github-square"></i></a>
+                    <small>Copyright &copy; Molly Kizer</small>
+                </div>
+            </footer>
+        </div>
 
-        </footer>
     </body>
 </html>
