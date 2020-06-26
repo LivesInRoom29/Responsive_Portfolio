@@ -150,11 +150,10 @@ footer {
     left: 0;
     position: fixed;
     width: 100%;
-    color: rgb(160, 185, 122);
+    /* color: rgb(160, 185, 122); */
 }
 
-a.footer-link {
-    color: rgba(245, 245, 245, 0.762);
-
+footer, i.fab {
+    color: rgba(226, 219, 231, 1);
 }
 
