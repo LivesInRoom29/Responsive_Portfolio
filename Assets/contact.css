@@ -1,0 +1,27 @@
+/* FORM styling in CONTACT.html */
+
+/* Heading color */
+form h2 {
+    color: rgb(29, 85, 29);
+}
+
+/* Line break styling */
+hr {
+    height: 2px;
+    background: lightgrey;
+}
+
+/* Styling for the form color, margin, border, and size. */
+#contact-form {
+    max-width: 40em;
+    background-color: whitesmoke;
+    margin: 3em;
+    border: 2px solid darkslategrey;
+
+}
+
+/* Color of input button. */
+input.btn {
+    background: rgb(29, 85, 29);
+}
+
