@@ -20,8 +20,8 @@ hr {
 
 }
 
-/* Color of input button. */
-input.btn {
+/* Color of input button on CONTACTS page and link buttons on PORTFOLIO page. */
+.btn {
     background: rgb(29, 85, 29);
 }
 
