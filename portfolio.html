@@ -6,6 +6,8 @@
         <title>Portfolio</title>
         <!-- Link to BOOTSTRAP sytles and my stylesheet -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./Assets/index.css">
+        <link rel="stylesheet" type="text/css" href="./Assets/contact.css">
         <link rel="stylesheet" type="text/css" href="./Assets/portfolio.css">
 
     </head>
@@ -39,6 +41,8 @@
         </header>
 
         <br /> <br />
+
+        <!-- Main section with cards for different portfolio pieces. -->
         <main>
             <div class="container">
                 <!-- First row of cards - has 3 vertical cards on lg screen -->
@@ -92,18 +96,20 @@
                 <br />
 
                 <!-- Second row of cards has 2 horizontal cards for Scratch projects -->
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-12 mb-3">
                         <div class="card" style="max-width: 500px;">
                             <div class="row no-gutters">
-                                <div class="col-sm-5" style="background: #868e96;">
-                                    <img src="images/sample.svg" class="card-img-top h-100" alt="...">
+                                <div class="col-sm-5 align-self-center h-100 scratch">
+                                    <!-- <img src="Assets/img/ScratchCatMouse.jpg" class="card-img ml-2" alt="Cat and mouse game"> -->
+                                    <iframe src="https://scratch.mit.edu/projects/399381580/embed" class="card-img pl-2" allowtransparency="true" width="195" height="200" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body">
-                                        <h5 class="card-title">Alice Liddel</h5>
-                                        <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
-                                        <a href="#" class="btn btn-primary stretched-link">View Profile</a>
+                                        <h5 class="card-title">A Game of Cat & Mouse</h5>
+                                        <p class="card-text">Using the pseudocode of Scratch code blocks, I built a working game. Help the cat protect the farm from the invading mice!</p>
+                                        <a href="https://scratch.mit.edu/projects/399381580" class="btn btn-primary btn-success stretched-link">Open in Scratch</a>
                                     </div>
                                 </div>
                             </div>
@@ -112,14 +118,15 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card" style="max-width: 500px;">
                             <div class="row no-gutters">
-                                <div class="col-sm-5" style="background: #868e96;">
-                                    <img src="images/sample.svg" class="card-img-top h-100" alt="...">
+                                <div class="col-sm-5 align-self-center">
+                                    <!-- <img src="Assets/img/ScratchDeerPopRandom.jpg" class="card-img ml-2" alt="Deer Population Random Card Generator"> -->
+                                    <iframe src="https://scratch.mit.edu/projects/380441763/embed" class="card-img pl-2" allowtransparency="true" width="195" height="200" frameborder="0" scrolling="no" allowfullscreen></iframe>
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body">
-                                        <h5 class="card-title">Alice Liddel</h5>
-                                        <p class="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
-                                        <a href="#" class="btn btn-primary stretched-link">View Profile</a>
+                                        <h5 class="card-title">Random Card Generator</h5>
+                                        <p class="card-text">Designed to go with <a href="https://science4inquiry.com/LessonPlans/LifeScience/Populations_MS/UpsDownsPopulationsMSFinal.pdf">The Ups & Downs of Populations</a> (a Biology simulation), this game allowed students to do the activity at home.</p>
+                                        <a href="https://scratch.mit.edu/projects/380441763" class="btn btn-primary btn-success stretched-link">Open in Scratch</a>
                                     </div>
                                 </div>
                             </div>
