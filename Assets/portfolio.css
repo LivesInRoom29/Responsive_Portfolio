@@ -52,6 +52,7 @@ div.box-shadow {
 div.img-left {
     padding-top: 15px;
     padding-bottom: 15px;
+
 }
 
 div.about-me {
@@ -162,3 +163,9 @@ footer, i.fab {
     color: rgba(226, 219, 231, 1);
 }
 
+/*screen-md*/
+@media (min-width: 100px) and (max-width: 767px) {
+    .aboutMe {
+      text-align: center;
+    }
+}
