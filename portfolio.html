@@ -9,6 +9,8 @@
         <link rel="stylesheet" type="text/css" href="./Assets/index.css">
         <link rel="stylesheet" type="text/css" href="./Assets/contact.css">
         <link rel="stylesheet" type="text/css" href="./Assets/portfolio.css">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/e5541abac7.js" crossorigin="anonymous"></script>
 
     </head>
 
@@ -46,49 +48,68 @@
         <main>
             <div class="container">
                 <!-- First row of cards - has 3 vertical cards on lg screen -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="row ">
+                    <!-- Card 1: Horiseon Code Refactor -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="container image-container mt-2">
+                                <img class="card-img-top d-flex flex-row justify-content-end image" src="./Assets/img/horiseon.jpg" alt="HoriSEOn screenshot">
+                                <div class="card-img-overlay middle">
+                                    <h3 class="card-title text">Code Refactor</h3>
+                                </div>
                             </div>
-                            <!-- <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Cras justo odio</li>
-                              <li class="list-group-item">Dapibus ac facilisis in</li>
-                              <li class="list-group-item">Vestibulum at eros</li>
-                            </ul> -->
+
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <h5 class="card-title">Hori<span>seo</span>n Code Refactor</h5>
+                              <p class="card-text">With this project, I took the HTML and CSS files for a website and refactored them in order to make the code more accessible and sustainable.</p>
+                            </div>
+
+                            <div class="card-body">
+                              <a href="https://livesinroom29.github.io/Code_Refactor/" class="card-link portfolio-link" target="_blank">Active Page</a>
+                              <a href="https://github.com/LivesInRoom29/Code_Refactor" class="card-link portfolio-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub Repo</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Card 2: Nick Cave & the Bad Seeds Tribute Page  -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="container image-container mt-3">
+                                <img class="card-img-top d-flex flex-row justify-content-end image" src="./Assets/img/NickCaveInBoston.JPG" alt="Nick Cave and the Bad Seeds">
+                                <div class="card-img-overlay middle">
+                                    <h3 class="card-title text">A Tribute Page</h3>
+                                </div>
                             </div>
+                            <br>
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <h5 class="card-title">Nick Cave & the Bad Seeds</h5>
+                              <p class="card-text">Very much a work in progress, at the moment this is a very basic website using only HTML.</p>
+                            </div>
+                            <br> 
+                            <div class="card-body">
+                              <a href="https://livesinroom29.github.io/fanpage_NCATBS/index.html" class="card-link portfolio-link" target="_blank">Active Page</a>
+                              <a href="https://github.com/LivesInRoom29/fanpage_NCATBS" class="card-link portfolio-link" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub Repo</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Card 3: More to come -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="container image-container mt-2">
+                                <img class="card-img-top d-flex flex-row justify-content-end image" src="./Assets/img/clover.jpg" alt="Clovers">
+                                <div class="card-img-overlay middle">
+                                    <h3 class="card-title text">Coming Soon</h3>
+                                </div>
                             </div>
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <h5 class="card-title">More to Come</h5>
+                              <p class="card-text">Working on more projects... will add them as I complete them.</p>
+                              <br> <br>
                             </div>
+                            <!-- Links - non-existant at the moment. -->
+                            <div class="card-body">
+                                <!-- <a href="#" class="card-link portfolio-link disabled" target="_blank">Active Page</a>
+                                <a href="#" class="card-link portfolio-link disabled" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub Repo</a> -->
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -103,7 +124,6 @@
                                 <div class="col-sm-5 align-self-center h-100 scratch">
                                     <!-- <img src="Assets/img/ScratchCatMouse.jpg" class="card-img ml-2" alt="Cat and mouse game"> -->
                                     <iframe src="https://scratch.mit.edu/projects/399381580/embed" class="card-img pl-2" allowtransparency="true" width="195" height="200" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body">
@@ -138,42 +158,50 @@
 
                 <!-- Third row has 3 vertical cards on lg screen -->
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Card 6: More to come -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="container image-container mt-2">
+                                <img class="card-img-top d-flex flex-row justify-content-end image" src="./Assets/img/sunset.jpg" alt="Sunset on the Beach">
+                                <div class="card-img-overlay middle">
+                                    <h3 class="card-title text">Coming Soon</h3>
+                                </div>
                             </div>
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <h5 class="card-title">More to Come</h5>
+                              <p class="card-text">More projects coming soon!</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+
+                    <!-- Card 7: More to come -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="container image-container mt-2">
+                                <img class="card-img-top d-flex flex-row justify-content-end image" src="./Assets/img/flowerfield.JPG" alt="Flowers in a field">
+                                <div class="card-img-overlay middle">
+                                    <h3 class="card-title text">Coming Soon</h3>
+                                </div>
                             </div>
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <h5 class="card-title">More to Come</h5>
+                              <p class="card-text">More projects coming soon!</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
+
+                    <!-- Card 8: More to come -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="container image-container mt-2">
+                                <img class="card-img-top d-flex flex-row justify-content-end image" src="./Assets/img/blueflower.jpg" alt="Sunset on the Beach">
+                                <div class="card-img-overlay middle">
+                                    <h3 class="card-title text">Coming Soon</h3>
+                                </div>
                             </div>
                             <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
-                              <a href="#" class="card-link">Another link</a>
+                              <h5 class="card-title">More to Come</h5>
+                              <p class="card-text">More projects coming soon!</p>
                             </div>
                         </div>
                     </div>
@@ -189,7 +217,7 @@
     <div class="footer-margin">
         <footer class="footer-position">
             <div class="container text-center">
-                <a class="footer-link" href="https://github.com/LivesInRoom29"><i class="btn fab fa-github-square"></i></a>
+                <a class="footer-link" href="https://github.com/LivesInRoom29"><i class="btn fab fa-github-square fa-lg"></i></a>
                 <small> Copyright &copy; 2020, Molly Kizer</small>
             </div>
         </footer>
