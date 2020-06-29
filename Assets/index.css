@@ -32,6 +32,7 @@ h1 {
 
 }
 
+
 /* Centers and sets background color for my name in header. */
 div.header-name {
     background-color: rgba(29, 85, 29, .7);
@@ -45,6 +46,11 @@ li.r-border {
 
 
 /* for ABOUT ME card */
+/* Increase text size for About Me Paragraph */
+p.about-me {
+    font-size: 1.15em;
+}
+
 div.box-shadow {
     box-shadow: 0 0 10px 0 rgba(0,0,0,.50)
 }
@@ -52,7 +58,6 @@ div.box-shadow {
 div.img-left {
     padding-top: 15px;
     padding-bottom: 15px;
-
 }
 
 div.about-me {
@@ -142,5 +147,8 @@ footer, i.fab, i.fa-linkedin-square {
 @media (min-width: 100px) and (max-width: 767px) {
     .aboutMe {
       text-align: center;
+    }
+    div.lib-header-seperator {
+        align-self: center;
     }
 }
